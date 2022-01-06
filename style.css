@@ -146,8 +146,11 @@ textarea{
 footer{
     color: white;
     padding: 20px 0px;
-    background-color: #320e5793;
+    background-color: #571745;
 }
 footer p{
-    color: #b3c3ffc5;
+    color: #ff004f;
+}
+footer p:hover{
+    text-decoration: underline;
 }
