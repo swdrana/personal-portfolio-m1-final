@@ -78,14 +78,17 @@ a#button:hover{
     outline: thick solid #800080;
 }
 /*************** Part 2 Area End Here *************/
-.info {
-    padding: 30px 0px;
+.width_33{
+    width: 33.3%;
 }
-.imgInfo_1 .info{
-    margin-left: -10%;
+.width_67{
+    width: 67.6%;
 }
-.imgInfo_2 .info{
-    margin-right: 10%;
+.right_info {
+    padding: 30px 0px 30px 50px;
+}
+.left_info{
+    padding: 30px 50px 30px 0px;
 }
 /*************** Part 3 Area End Here *************/
 .center{
