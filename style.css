@@ -7,12 +7,12 @@ body{
     margin:50px auto;
     display: flex;
 }
-.box_two{
+.width_50{
     width: 50%;
     margin-right: 5px;
     height: 400px;
 }
-.box_two:last-child{
+.width_50:last-child{
     margin-right: 0px;
 }
 h1{
@@ -22,7 +22,7 @@ h1{
     margin: 0 auto;
 }
 .border_left{
-    border-left: 3px solid #800080;
+    border-left: 3px solid #ff014f;
     padding-left: 15px;
 }
 p,a{
@@ -30,7 +30,7 @@ p,a{
     font-family: 'Economica', sans-serif;
 }
 .marking_color{
-    color: #800080;
+    color: #ff014f;
 }
 img{
     max-height: 100%;
@@ -39,16 +39,17 @@ img{
 a#button{
     text-decoration: none;
     padding: 10px 40px;
-    color: #800080;
-    border: 3px solid #800080;
+    color: #ff014f;
+    border: 3px solid #ff014f;
     border-radius: 5px;
-    transition: 0.4s;
+    transition: 0.3s;
     display: inline-block;
     margin: 10px 0px;
 }
 a#button:hover{
     color: white;
-    background-color: #800080;
+    background-image: linear-gradient(
+        45deg, #F0001F, #ff004f);
 }
 /*************** Part 1 Area End Here *************/
 .box_three{
@@ -75,7 +76,7 @@ a#button:hover{
 }
 .box_three:hover{
     background-color: white;
-    outline: thick solid #800080;
+    outline: thick solid #ff014f;
 }
 /*************** Part 2 Area End Here *************/
 .width_33{
@@ -94,8 +95,52 @@ a#button:hover{
 .center{
     text-align: center;
 }
-.part_four .img_box{
-    text-align: center;
+.fa{
+    display:inline-block;
+}
+.content_area a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 50px;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    transition: 0.3s;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #FFFFFF 0%, #F4F4F4 50%, #FFFFFF 100%);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,.15);
+
+}
+.content_area a:hover{
+    color:#ff014f;
+    padding-bottom: 25px;
+}
+label{
+    width: 110px;
+    display: inline-block;
+}
+input{    
+    width: 70%;
+    height: 30px;
+    margin: 5px 0px;
+}
+#submit{
+    width: 20%;
+    margin: 0 20%;
+}
+textarea{
+    margin: 0 5px;
+    width: 397px;
+    height: 142px;
+}
+.input_sec{
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.input_sec:hover{
+    color: #ff014f;
+    background: linear-gradient(45deg, #FFFFFF 0%, #F4F4F4 50%, #FFFFFF 100%);
+    box-shadow: 0px 0px 20px 2px rgba(0,0,0,.15);
 }
 /*************** Part 4 Area End Here *************/
 footer{
