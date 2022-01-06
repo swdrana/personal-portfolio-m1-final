@@ -20,7 +20,6 @@ h1{
     margin-bottom: 0px;
     font-family: 'Merienda', cursive;
     margin: 0 auto;
-
 }
 .border_left{
     border-left: 3px solid #800080;
@@ -52,15 +51,12 @@ a#button:hover{
     background-color: #800080;
 }
 /*************** Part 1 Area End Here *************/
-.part_two h1{
-    text-align: center;
-}
 .box_three{
     width: 33.3%;
-    background-color: darkorange;
     border-radius: 30px;
     margin-right: 30px;
     padding: 5px 20px;
+    transition: 0.3s;
 }
 .box_three:last-child{
     margin-right: 0px;
@@ -76,6 +72,10 @@ a#button:hover{
 }
 .bg_1 img, .bg_2 img, .bg_3 img{
     width: 200px;
+}
+.box_three:hover{
+    background-color: white;
+    outline: thick solid #800080;
 }
 /*************** Part 2 Area End Here *************/
 .info {
